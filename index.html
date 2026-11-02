@@ -103,6 +103,7 @@ html:not(.gs) .hero h1 .surname{animation-delay:.3s}
 .about .wrap{display:flex;flex-wrap:wrap;gap:clamp(36px,6vw,80px);align-items:flex-start}
 .about-photo{flex:1 1 340px;aspect-ratio:3/4;max-height:640px;border-radius:44px;background:#EAF7F0;border-color:#A7D8BF;color:var(--accent);position:sticky;top:110px}
 .about-text{flex:1 1 480px;min-width:0;display:flex;flex-direction:column;gap:26px}
+  @media (max-width:960px){.about-figure,.about-photo{position:relative;top:auto}}
 .story{font-size:21px;color:var(--muted);max-width:58ch}
 .timeline{list-style:none;margin:8px 0 0;padding:0;position:relative}
 .timeline::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:var(--line)}
